@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"a43db40c665c2ab8","type":"text","text":"HW1\n训练流程","x":-480,"y":10,"width":100,"height":70},
+		{"id":"4524835c77273b33","type":"text","text":"损失函数：MSELoss","x":-180,"y":-80,"width":360,"height":60},
+		{"id":"65e1a84586cc1f5f","type":"text","text":"优化器：SGD and  monmentum","x":-189,"y":109,"width":369,"height":91},
+		{"id":"9e033de69dcee9e3","x":300,"y":10,"width":127,"height":74,"type":"text","text":"HW2\n训练流程\n"},
+		{"id":"ece505d42c9c8966","x":485,"y":-139,"width":315,"height":59,"type":"text","text":"损失函数：CrossEntropyLoss\n\n"},
+		{"id":"3297a6fff0eea4ef","x":492,"y":99,"width":288,"height":81,"type":"text","text":"优化器：Adam"},
+		{"id":"320cbe48f688ca17","x":-193,"y":336,"width":250,"height":60,"type":"text","text":"model:"},
+		{"id":"13f78e674c747a2b","x":518,"y":309,"width":250,"height":60,"type":"text","text":"model:"}
+	],
+	"edges":[
+		{"id":"d1244cf3b6d99b5a","fromNode":"a43db40c665c2ab8","fromSide":"right","toNode":"4524835c77273b33","toSide":"left"},
+		{"id":"45c45d76b8b2b076","fromNode":"a43db40c665c2ab8","fromSide":"right","toNode":"65e1a84586cc1f5f","toSide":"left"},
+		{"id":"1928ecb85ac3b905","fromNode":"9e033de69dcee9e3","fromSide":"right","toNode":"ece505d42c9c8966","toSide":"left"},
+		{"id":"32b9217f18952be7","fromNode":"9e033de69dcee9e3","fromSide":"right","toNode":"3297a6fff0eea4ef","toSide":"left"},
+		{"id":"3785f22f6a5ff2df","fromNode":"a43db40c665c2ab8","fromSide":"right","toNode":"320cbe48f688ca17","toSide":"left"},
+		{"id":"f426aa1d1c51bfb0","fromNode":"9e033de69dcee9e3","fromSide":"right","toNode":"13f78e674c747a2b","toSide":"left"}
+	]
+}
