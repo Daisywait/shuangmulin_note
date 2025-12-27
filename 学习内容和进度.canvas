@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"d2f99a8dc0f735fe","type":"text","text":"力扣刷题","x":-640,"y":-450,"width":78,"height":60},
+		{"id":"2870ad920dd46425","type":"text","text":"1. 数组与字符串https://leetcode.cn/leetbook/read/array-and-string/y4dgi/\n    已到二维数组\n2. hot100:16/100\n\t\thttps://leetcode.cn/problems/intersection-of-two-linked-lists/description/?envType=problem-list-v2&envId=2cktkvj&\n","x":-480,"y":-460,"width":340,"height":220,"color":"2"},
+		{"id":"b762b01b721f6f35","type":"text","text":"看书","x":-640,"y":-180,"width":98,"height":60},
+		{"id":"85367122ae077653","type":"text","text":"[[大话数据结构.pdf]]，刚开始看，已看完第二章算法介绍，93/756\n[[ROS2机器人开发：从入门到实践 (桑欣) .pdf]]刚开始看","x":-480,"y":-180,"width":280,"height":140,"color":"6"},
+		{"id":"93729808e9727d56","type":"text","text":"李宏毅视频","x":-80,"y":-420,"width":142,"height":60},
+		{"id":"9c0af8bfbef242fc","type":"text","text":"已做HW1，尝试了两个（特征提取Xgboost和网络结构dropout优化）https://www.kaggle.com/competitions/ml2022spring-hw1/submissions\n视频也是跟着看的\n自适应学习率_11.5\nHW2：\n重新做笔记——sigmoid\n分类问题的损失函数_11.8","x":140,"y":-460,"width":320,"height":240,"color":"3"},
+		{"id":"0e8933e24c8fafdf","type":"text","text":"d2l","x":-625,"y":253,"width":125,"height":87},
+		{"id":"669f69af8965491d","type":"text","text":"线性回归","x":-436,"y":151,"width":250,"height":60},
+		{"id":"e65ae6a133e0033f","type":"text","text":"已完成：（或者已结束）\n","x":-1160,"y":-1020,"width":200,"height":60,"color":"#d34545"},
+		{"id":"4bc462b6e1aeb98f","type":"text","text":"短课证件照污损","x":-660,"y":-1080,"width":160,"height":60},
+		{"id":"96164a04dd071721","type":"text","text":"已下载Qwen3和deepseek的模型框架和权重\n已经修改ds的inference.py，接下来就是微调，还有测试一下Qwen_11.05\n打算完全跟着ppt来吧，弄掉了deepseek,弄了下数据集，还要重新下Qwen3vl的权重_11.06\n部署完环境并且训练了一次，但是不知道怎么衡量损失_11.8\n弄完bbox了_11.9\n已提交报告[[短课Qwen报告]]\n","x":-289,"y":-1200,"width":280,"height":210,"color":"1"},
+		{"id":"1e56b1c8ecf52201","type":"text","text":"智能机器人实习项目","x":50,"y":99,"width":180,"height":105},
+		{"id":"04319cbc0c33f469","type":"text","text":"连接主机、修改密码、知道known_hosts文件存储的是第一次创建公私密钥的指纹\n1. [[公私密钥生成]]\n2. [[免密码登录到远程服务器]]","x":520,"y":-240,"width":240,"height":145},
+		{"id":"542f1117973b0670","type":"text","text":"2025.11.13～11.19在4090工作站上下载JEPA代码，并配置cuda 12.8的docker，跑通JEPA代码。工作站不能连接外网github，多人在不同本地工作站如何通过git同步代码协同开发，通过gitlab？\n参考笔记：\n1. [[Gitlab 部署流程]]\n2. [[Docker 常用操作速查手册]]\n3. [[GitLab 用户访问指南]]\n4. [[GitLab（Docker 容器版）运维与使用指南]]\n5. [[Git 本地开发与推送流程（对接内网 GitLab）]]\n6. [[端口映射]]\n7. [[共享内存]]","x":520,"y":-60,"width":240,"height":400},
+		{"id":"6086432921da0eed","type":"text","text":"2025.11.19～任务：*安装ROS2，使用franka_ros2https://github.com/frankarobotics/franka_ros2等，实现VR手柄遥操抓取。*\n目前在实现VR和电脑的串流\n参考笔记：在飞书\n已实现串流和VR与PC的通信，在弄franka\nfranka在弄不动的问题\n机械臂动啦！！\n在弄实时性的问题——12.12","x":520,"y":480,"width":700,"height":200},
+		{"id":"e1eac8309f3dde7b","type":"text","text":"适合做分类：摩尔纹、因为拍照造成的形变、对焦不准（整个图片问题）","x":-280,"y":-1360,"width":280,"height":80}
+	],
+	"edges":[
+		{"id":"99c11b834ff95142","fromNode":"d2f99a8dc0f735fe","fromSide":"right","toNode":"2870ad920dd46425","toSide":"left"},
+		{"id":"6047ff8986b2c3e3","fromNode":"b762b01b721f6f35","fromSide":"right","toNode":"85367122ae077653","toSide":"left"},
+		{"id":"ca19e2f2b2da95c3","fromNode":"93729808e9727d56","fromSide":"right","toNode":"9c0af8bfbef242fc","toSide":"left"},
+		{"id":"53cb3a786d10bb64","fromNode":"1e56b1c8ecf52201","fromSide":"right","toNode":"04319cbc0c33f469","toSide":"left"},
+		{"id":"a508be4ff2224886","fromNode":"0e8933e24c8fafdf","fromSide":"right","toNode":"669f69af8965491d","toSide":"left"},
+		{"id":"e3b0701f69be0005","fromNode":"1e56b1c8ecf52201","fromSide":"right","toNode":"542f1117973b0670","toSide":"left"},
+		{"id":"ef23f76931ef663e","fromNode":"4bc462b6e1aeb98f","fromSide":"right","toNode":"96164a04dd071721","toSide":"left"},
+		{"id":"6f82dba294d7b68a","fromNode":"e65ae6a133e0033f","fromSide":"right","toNode":"4bc462b6e1aeb98f","toSide":"left"},
+		{"id":"105399397b0ac475","fromNode":"1e56b1c8ecf52201","fromSide":"right","toNode":"6086432921da0eed","toSide":"left"},
+		{"id":"342f4c85e91e62d0","fromNode":"96164a04dd071721","fromSide":"top","toNode":"e1eac8309f3dde7b","toSide":"bottom"}
+	]
+}
