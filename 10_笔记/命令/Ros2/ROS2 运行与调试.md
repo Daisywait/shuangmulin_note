@@ -54,6 +54,7 @@ ros2 param list
 ```bash
 # 获取参数值
 ros2 param get /node_name param_name
+#ros2 param get /moveit_servo command_in_type
 ```
 
 ```bash
