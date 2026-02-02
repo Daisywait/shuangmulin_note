@@ -1,0 +1,34 @@
+﻿{
+	"nodes":[
+		{"id":"d2f99a8dc0f735fe","type":"text","text":"鍔涙墸鍒烽","x":-640,"y":-450,"width":78,"height":60},
+		{"id":"2870ad920dd46425","type":"text","text":"1. 鏁扮粍涓庡瓧绗︿覆https://leetcode.cn/leetbook/read/array-and-string/y4dgi/\n    宸插埌浜岀淮鏁扮粍\n2. hot100:16/100\n\t\thttps://leetcode.cn/problems/intersection-of-two-linked-lists/description/?envType=problem-list-v2&envId=2cktkvj&\n","x":-480,"y":-460,"width":340,"height":220,"color":"2"},
+		{"id":"b762b01b721f6f35","type":"text","text":"鐪嬩功","x":-640,"y":-180,"width":98,"height":60},
+		{"id":"85367122ae077653","type":"text","text":"[[澶ц瘽鏁版嵁缁撴瀯.pdf]]锛屽垰寮€濮嬬湅锛屽凡鐪嬪畬绗簩绔犵畻娉曚粙缁嶏紝93/756\n[[ROS2鏈哄櫒浜哄紑鍙戯細浠庡叆闂ㄥ埌瀹炶返 (妗戞) .pdf]]鍒氬紑濮嬬湅","x":-480,"y":-180,"width":280,"height":140,"color":"6"},
+		{"id":"93729808e9727d56","type":"text","text":"鏉庡畯姣呰棰?,"x":-80,"y":-420,"width":142,"height":60},
+		{"id":"9c0af8bfbef242fc","type":"text","text":"宸插仛HW1锛屽皾璇曚簡涓や釜锛堢壒寰佹彁鍙朮gboost鍜岀綉缁滅粨鏋刣ropout浼樺寲锛塰ttps://www.kaggle.com/competitions/ml2022spring-hw1/submissions\n瑙嗛涔熸槸璺熺潃鐪嬬殑\n鑷€傚簲瀛︿範鐜嘷11.5\nHW2锛歕n閲嶆柊鍋氱瑪璁扳€斺€攕igmoid\n鍒嗙被闂鐨勬崯澶卞嚱鏁癬11.8","x":140,"y":-460,"width":320,"height":240,"color":"3"},
+		{"id":"0e8933e24c8fafdf","type":"text","text":"d2l","x":-625,"y":253,"width":125,"height":87},
+		{"id":"669f69af8965491d","type":"text","text":"绾挎€у洖褰?,"x":-436,"y":151,"width":250,"height":60},
+		{"id":"e65ae6a133e0033f","type":"text","text":"宸插畬鎴愶細锛堟垨鑰呭凡缁撴潫锛塡n","x":-1160,"y":-1020,"width":200,"height":60,"color":"#d34545"},
+		{"id":"4bc462b6e1aeb98f","type":"text","text":"鐭璇佷欢鐓ф薄鎹?,"x":-660,"y":-1080,"width":160,"height":60},
+		{"id":"96164a04dd071721","type":"text","text":"宸蹭笅杞絈wen3鍜宒eepseek鐨勬ā鍨嬫鏋跺拰鏉冮噸\n宸茬粡淇敼ds鐨刬nference.py锛屾帴涓嬫潵灏辨槸寰皟锛岃繕鏈夋祴璇曚竴涓婹wen_11.05\n鎵撶畻瀹屽叏璺熺潃ppt鏉ュ惂锛屽紕鎺変簡deepseek,寮勪簡涓嬫暟鎹泦锛岃繕瑕侀噸鏂颁笅Qwen3vl鐨勬潈閲峗11.06\n閮ㄧ讲瀹岀幆澧冨苟涓旇缁冧簡涓€娆★紝浣嗘槸涓嶇煡閬撴€庝箞琛￠噺鎹熷け_11.8\n寮勫畬bbox浜哶11.9\n宸叉彁浜ゆ姤鍛奫[鐭Qwen鎶ュ憡]]\n","x":-289,"y":-1200,"width":280,"height":210,"color":"1"},
+		{"id":"1e56b1c8ecf52201","type":"text","text":"鏅鸿兘鏈哄櫒浜哄疄涔犻」鐩?,"x":50,"y":99,"width":180,"height":105},
+		{"id":"04319cbc0c33f469","type":"text","text":"杩炴帴涓绘満銆佷慨鏀瑰瘑鐮併€佺煡閬搆nown_hosts鏂囦欢瀛樺偍鐨勬槸绗竴娆″垱寤哄叕绉佸瘑閽ョ殑鎸囩汗\n1. [[鍏瀵嗛挜鐢熸垚]]\n2. [[鍏嶅瘑鐮佺櫥褰曞埌杩滅▼鏈嶅姟鍣╙]","x":520,"y":-240,"width":280,"height":160},
+		{"id":"542f1117973b0670","type":"text","text":"2025.11.13～11.19 在 4090 工作站下载 JEPA 代码，并配置 CUDA 12.8 的 Docker，跑通 JEPA 代码。工作站不能连接外网 GitHub，多人在不同本地工作站如何通过 Git 同步代码协同开发，通过 GitLab？\\n\\n参考笔记：\\n1. [[10_Notes/常用终端命令/docker容器部署/GitLab 部署（Docker）]]\\n2. [[10_Notes/常用终端命令/docker容器部署/Docker 容器常用操作]]\\n3. [[30_Projects/容器运维/GitLab 用户访问指南]]\\n4. [[30_Projects/容器运维/GitLab（Docker 容器版）运维与使用指南]]\\n5. [[10_Notes/常用终端命令/Git/Git 远程协作与撤销（通用）]]\\n6. [[10_Notes/概念算法/计算机基础知识/概念/端口映射（Port Mapping）]]\\n7. [[10_Notes/Docker/共享内存（dev_shm 与 --shm-size）]]","x":520,"y":-60,"width":280,"height":460},
+		{"id":"6086432921da0eed","type":"text","text":"2025.11.19锝炰换鍔★細*瀹夎ROS2锛屼娇鐢╢ranka_ros2https://github.com/frankarobotics/franka_ros2绛夛紝瀹炵幇VR鎵嬫焺閬ユ搷鎶撳彇銆?\n鐩墠鍦ㄥ疄鐜癡R鍜岀數鑴戠殑涓叉祦\n鍙傝€冪瑪璁帮細鍦ㄩ涔n宸插疄鐜颁覆娴佸拰VR涓嶱C鐨勯€氫俊锛屽湪寮刦ranka\nfranka鍦ㄥ紕涓嶅姩鐨勯棶棰榎n鏈烘鑷傚姩鍟︼紒锛乗n鍦ㄥ紕瀹炴椂鎬х殑闂鈥斺€?2.12\n鐩墠閬ユ搷鍔ㄤ綔鍩烘湰鍜屾墜鏌勪竴鑷达紝闇€瑕佺‘淇濈ǔ瀹氳繍琛岋紙姣斿涓よ竟鑺傜偣閮戒笉鎸傦紝鐒跺悗闃叉relex)鍙兘闇€瑕佸啀杩涗竴姝ヤ慨鏀逛唬鐮侊紝浣嗘槸涓嶈鎶婃帶鍒舵満姊拌噦鐨勯儴鍒嗘敼浜嗭紒娉ㄦ剰锛侊紒锛佲€斺€?026.1.27","x":520,"y":480,"width":920,"height":420},
+		{"id":"e1eac8309f3dde7b","type":"text","text":"閫傚悎鍋氬垎绫伙細鎽╁皵绾广€佸洜涓烘媿鐓ч€犳垚鐨勫舰鍙樸€佸鐒︿笉鍑嗭紙鏁翠釜鍥剧墖闂锛?,"x":-280,"y":-1360,"width":280,"height":80}
+	],
+	"edges":[
+		{"id":"99c11b834ff95142","fromNode":"d2f99a8dc0f735fe","fromSide":"right","toNode":"2870ad920dd46425","toSide":"left"},
+		{"id":"6047ff8986b2c3e3","fromNode":"b762b01b721f6f35","fromSide":"right","toNode":"85367122ae077653","toSide":"left"},
+		{"id":"ca19e2f2b2da95c3","fromNode":"93729808e9727d56","fromSide":"right","toNode":"9c0af8bfbef242fc","toSide":"left"},
+		{"id":"53cb3a786d10bb64","fromNode":"1e56b1c8ecf52201","fromSide":"right","toNode":"04319cbc0c33f469","toSide":"left"},
+		{"id":"a508be4ff2224886","fromNode":"0e8933e24c8fafdf","fromSide":"right","toNode":"669f69af8965491d","toSide":"left"},
+		{"id":"e3b0701f69be0005","fromNode":"1e56b1c8ecf52201","fromSide":"right","toNode":"542f1117973b0670","toSide":"left"},
+		{"id":"ef23f76931ef663e","fromNode":"4bc462b6e1aeb98f","fromSide":"right","toNode":"96164a04dd071721","toSide":"left"},
+		{"id":"6f82dba294d7b68a","fromNode":"e65ae6a133e0033f","fromSide":"right","toNode":"4bc462b6e1aeb98f","toSide":"left"},
+		{"id":"105399397b0ac475","fromNode":"1e56b1c8ecf52201","fromSide":"right","toNode":"6086432921da0eed","toSide":"left"},
+		{"id":"342f4c85e91e62d0","fromNode":"96164a04dd071721","fromSide":"top","toNode":"e1eac8309f3dde7b","toSide":"bottom"}
+	]
+}
+
+

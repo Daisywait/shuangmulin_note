@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"44715ad9b1d68df3","x":-433,"y":-359,"width":453,"height":199,"type":"text","text":"训练流程的入口在哪里？\ntrain_nn.py (入口点)\n    ↓ 调用\npretrain.py (训练器)\n    ↓ 使用\nt3.py (模型)"},
+		{"id":"bdebca0eeca42464","x":280,"y":-460,"width":487,"height":423,"type":"text","text":"1. 用户运行: python train_nn.py\n   ↓\n2. Hydra 加载 configs/config.yaml\n   ↓\n3. 创建 T3Pretrain 实例\n   ↓\n4. pretrainer.setup_model() → 创建 T3 模型\n   ↓\n5. pretrainer.setup_optimizer() → 设置优化器\n   ↓\n6. pretrainer.setup_dataset() → 加载数据\n   ↓\n7. pretrainer.train() → 开始训练循环"},
+		{"id":"4b697493dc646185","x":401,"y":180,"width":250,"height":27,"type":"text","text":"怎么创建模型和加载数据的"},
+		{"id":"febcf313e23f240a","x":1120,"y":-259,"width":260,"height":99,"type":"text","text":"主要的训练循环在调用入口：\ntrain()方法\n\n"},
+		{"id":"63530bb3d25e6975","x":1564,"y":-240,"width":356,"height":240,"type":"text","text":"encoder_domain字段是在哪里被获取的？怎么进行的判断要用哪个编码器？\n编码器之间的区别在哪里？\n共享trunk的优势在哪里？实现是怎么样的？\n解码器为什么是按照任务？"},
+		{"id":"b00f47d174c16314","x":-590,"y":-935,"width":250,"height":60,"color":"1","type":"text","text":"用问题搞清楚流程"},
+		{"id":"8673469b8b9d3edf","x":1128,"y":-83,"width":250,"height":60,"type":"text","text":"为什么是train_test()"},
+		{"id":"7fba4cd5b05d10ff","x":2075,"y":-547,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"bdbe495f3d6f9bf3","fromNode":"44715ad9b1d68df3","fromSide":"right","toNode":"bdebca0eeca42464","toSide":"left"},
+		{"id":"4e02d0744f12ba96","fromNode":"bdebca0eeca42464","fromSide":"right","toNode":"febcf313e23f240a","toSide":"left"},
+		{"id":"16fb9bf6534598fd","fromNode":"bdebca0eeca42464","fromSide":"bottom","toNode":"4b697493dc646185","toSide":"top"},
+		{"id":"53ec0a4c4461e12a","fromNode":"febcf313e23f240a","fromSide":"right","toNode":"63530bb3d25e6975","toSide":"left"},
+		{"id":"c60cc5f73b037fdb","fromNode":"febcf313e23f240a","fromSide":"bottom","toNode":"8673469b8b9d3edf","toSide":"top"},
+		{"id":"18a32cf6e184d6c5","fromNode":"63530bb3d25e6975","fromSide":"right","toNode":"7fba4cd5b05d10ff","toSide":"left"}
+	]
+}
