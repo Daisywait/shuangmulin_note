@@ -87,9 +87,8 @@ docker logs --tail 100 gitlab
 - 解释：容器启动失败时优先看日志；删除镜像前需先删除使用它的容器；/dev/shm 太小会导致部分服务报错。
 
 - 链接
-  - [[shuangmulin/10_笔记/命令/Docker/GitLab 部署]]
   - [[离线 AI 训练环境部署的标准 SOP]]
-  - [[共享内存（dev_shm 与 --shm-size）]]
+
 
 
 
